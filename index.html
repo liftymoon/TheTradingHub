@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Ticker</title>
-</head>
-<body>
-    <!-- CoinMarketCap Widget -->
-    <div id="coinmarketcap-widget-marquee" coins="1,1027,825,5426,5805,3890" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
-    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
-</body>
-</html>
+<div id="cr-widget-marquee"
+        data-coins="bitcoin,ethereum,tether,ripple,cardano"
+        data-theme="light"
+        data-show-symbol="true"
+        data-show-icon="true"
+        data-show-period-change="true"
+        data-period-change="24H"
+        data-api-url="https://api.cryptorank.io/v0"
+      >
+        <a href="https://cryptorank.io">Coins by Cryptorank</a>
+        <script src="https://cryptorank.io/widget/marquee.js"></script>
+      </div>
